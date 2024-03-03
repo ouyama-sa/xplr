@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home,
+.services,
+.destinations,
+.sign-up {
+  display: flex;
+  height: calc(100vh - 65px);
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  font-size: clamp(2rem, 0.214rem + 4.762vw, 4.5rem);
+  box-shadow: inset 5em 1000px rgba(0, 0, 0, .5);
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+.services h1,
+.destinations h1,
+.sign-up h1 {
+  font-size: clamp(2rem, 0.214rem + 4.762vw, 4.5rem);
+}
+
+.services {
+  background-image: url('https://images.pexels.com/photos/7235894/pexels-photo-7235894.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+.destinations {
+  background-image: url('https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sign-up {
+  background-image: url('https://images.pexels.com/photos/2442888/pexels-photo-2442888.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
