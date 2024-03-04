@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem 4rem 0;
+  padding: 4rem 0;
   background: var(--primary);
 }
 
@@ -18,12 +18,8 @@ h1 {
 
 .cards__wrapper {
   position: relative;
-  /* bottom: 0; */
   margin: 20px 0 0px;
 }
-
-/* .cards__items {
-} */
 
 .cards__item {
   display: flex;
@@ -50,8 +46,9 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-.cards__item:hover, .cards__item:hover
-.cards__item__pic-wrap, .cards__item:hover .cards__item__link {
+.cards__item:hover,
+.cards__item:hover .cards__item__pic-wrap,
+.cards__item:hover .cards__item__link {
   width: 25vw;
 }
 
@@ -120,41 +117,36 @@ h1 {
     padding: 10vh 0;
   }
 
-  .cards__item {
-    height: 100px;
+  .cards__item,
+  .cards__item__pic-wrap,
+  .cards__item__link,
+  .cards__item:hover,
+  .cards__item:hover .cards__item__pic-wrap,
+  .cards__item:hover .cards__item__link,
+  .cards__item__text {
+    width: 90vw;
+    transition: none;
   }
 
   .cards__item__link {
     display: flex;
     flex-flow: column;
-    /* width: 100%; */
     border-radius: 2px;
     overflow: hidden;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    height: 100px;
-  }
-
-  .cards__item__link,
-  .cards__item__link:hover,
-  .cards__item__text {
-    width: 90vw;
+    transition: none;
   }
 
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 15vh;
     overflow: hidden;
   }
 
   .cards__item__img {
-    height: 100px;
-    filter: contrast(1.1) saturate(1.2) brightness(0.8);
-  }
-
-  .cards__item:nth-child(even) .cards__item__img {
-    height: 180px;
+    height: 100%;
+    filter: contrast(1.1) saturate(1.2) brightness(0.9);
   }
 
   .cards__item__info {
@@ -167,8 +159,7 @@ h1 {
     z-index: 1;
     top: 0;
     text-align: center;
-    width: 100%;
-    color: #de1616;
+    color: var(--primary);
     font-size: 25px;
     opacity: 1;
   }
