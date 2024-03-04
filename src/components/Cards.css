@@ -62,20 +62,6 @@ h1 {
   animation-duration: 2s;
 }
 
-/* .cards__item__pic-wrap::after {
-  content: attr(data-category);
-  position: absolute;
-  bottom: 0;
-  margin-left: 10px;
-  padding: 6px 8px;
-  max-width: calc((100%) - 60px);
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
-  box-sizing: border-box;
-} */
-
 .cards__item__img {
   position: absolute;
   top: 0;
@@ -158,9 +144,24 @@ h1 {
 
   .cards__item__img {
     height: 100px;
+    filter: contrast(1.1) saturate(1.2) brightness(.8);
+  }
+
+  .cards__item:nth-child(even) .cards__item__img {
+    height: 180px;
   }
 
   .cards__item__text {
-    display: none;
+    position: relative;
+    z-index: 1;
+    top: 55%;
+    text-align: center;
+    width: 100%;
+    color: #de1616;
+    font-size: 25px;
+    line-height: 24px;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, .8));
   }
 }
