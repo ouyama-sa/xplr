@@ -3,7 +3,7 @@
 # XPLR
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+<!-- ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge) -->
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 
 <img src="./src/assets/preview.png" alt="Website image preview.">
@@ -29,9 +29,9 @@ Based on [Brian Design's Tutorial](https://www.youtube.com/watch?v=I2UBjN5ER4s).
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### TODO:
-<!-- - FIX the mobile home view. -->
+- FIX the mobile home view.
 - ADD the carossel in the services tab.
-- FIX the mobile navbar menu.
+<!-- - FIX the mobile navbar menu. -->
 - CHANGE the buttons to something nicer.
 - ADD a footer.
 - FIX navbar typo "onClck"

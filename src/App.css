@@ -5,6 +5,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  max-height: fit-content;
+}
+
 a {
   text-decoration: none;
 }
@@ -49,3 +53,4 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
